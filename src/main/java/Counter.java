@@ -27,11 +27,16 @@ public class Counter {
 	public void decreaseBy(int i) {
 		count-=i;
 	}
-
-	public void multiplyHy(int i){
-		count = count - i;
+	
+	public void multiplyBy(int i){
+		count = count * i;
 	}
 	
+	public void triple(){
+		int i = 3;
+		multiplyBy(i);
+	}
+
 	public void powerBy(int i){
 		count = count ^ i;
 	}
