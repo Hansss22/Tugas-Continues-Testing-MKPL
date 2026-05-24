@@ -38,6 +38,11 @@ public class Counter {
 		multiplyBy(i);
 	}
 
+	public void double(){
+		int i = 2;
+		multiplyBy(i);
+	}
+
 	public void powerBy(int i){
 		count = count ^ i;
 	}
