@@ -32,17 +32,6 @@ public class Counter {
 		count = count * i;
 	}
 	
-	public void triple(){
-		int i = 3;
-		int tidakTerpakai = 99;
-		multiplyBy(i);
-	}
-
-	public void double(){
-		int i = 2;
-		multiplyBy(i);
-	}
-
 	public void powerBy(int i){
 		count = count ^ i;
 	}
