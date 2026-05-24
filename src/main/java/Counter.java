@@ -34,6 +34,7 @@ public class Counter {
 	
 	public void triple(){
 		int i = 3;
+		int tidakTerpakai = 99;
 		multiplyBy(i);
 	}
 
