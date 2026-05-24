@@ -27,14 +27,6 @@ public class Counter {
 	public void decreaseBy(int i) {
 		count-=i;
 	}
-	
-	public void multiplyBy(int i){
-		count = count * i;
-	}
-
-	public void multiplyGy(int i){
-		count = count + i;
-	}
 
 	public void multiplyHy(int i){
 		count = count - i;
