@@ -31,6 +31,14 @@ public class Counter {
 	public void multiplyBy(int i){
 		count = count * i;
 	}
+
+	public void multiplyGy(int i){
+		count = count + i;
+	}
+
+	public void multiplyHy(int i){
+		count = count - i;
+	}
 	
 	public void powerBy(int i){
 		count = count ^ i;
